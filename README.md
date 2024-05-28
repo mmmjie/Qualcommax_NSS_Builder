@@ -1,3 +1,12 @@
+
+
+这是一个针对不死uboot的修改分支
+安装后如提示内核指纹不对，无法安装app
+需要手动修改/usr/lib/opkg/status 这个文件里的指纹，替换成商店APP提示需要的指纹，全部指纹都替换掉
+
+这个分支不适用于原版uboot
+本人不保证刷机后是否能正常使用，不承担任何刷机产生的一切问题与后果，一切后果请使用者自行承担
+
 # Qualcommax NSS Builder
 
 This project automates the process of building OpenWrt firmware images for the Qualcomm IPQ807x platform, specifically targeting the Xiaomi AX3600 router. The build process incorporates various optimizations, hardening options, and quality-of-life enhancements. 
